@@ -1,0 +1,19 @@
+{
+  "name": "git-flow-demo",
+  "version": "1.0.0",
+  "description": "# Review Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No test cases specified'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.48",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
