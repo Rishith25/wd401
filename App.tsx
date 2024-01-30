@@ -1,3 +1,11 @@
+import React from "react";
+const API_ENDPOINT = "api_endpoint";
+
+const organisationName = "org_name";
+const userName = "user_name";
+const userEmail = "email@example.com";
+const userPassword = "password";
+
 const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
   event.preventDefault();
   //API Endpoint for sign-up
