@@ -14,6 +14,7 @@ const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     });
 
     console.log("This is from main Branch");
+    console.log("This is from Branch");
 
     if (!response.ok) {
       throw new Error(`Sign-up failed with status ${response.status}`);
