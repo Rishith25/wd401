@@ -3,15 +3,13 @@ function LogMethod(
   target: any,
   key: string,
   descriptor: PropertyDescriptor
-): PropertyDescriptor {
+): void {
   const originalMethod = descriptor.value;
 
   descriptor.value = function (...args: any[]) {
     console.log(`Calling method ${key} with arguments: ${args.join(", ")}`);
     return originalMethod.apply(this, args);
   };
-
-  return descriptor; // Return the modified Property Descriptor
 }
 
 // Example usage of the decorator
