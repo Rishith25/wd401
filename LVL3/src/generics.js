@@ -3,16 +3,17 @@
 function identity(arg) {
     return arg;
 }
-let result = identity("hello");
+var result = identity("hello");
 console.log(result); // Output: hello
 // Example of a generic class
-class Box {
-    constructor(value) {
+var Box = /** @class */ (function () {
+    function Box(value) {
         this.value = value;
     }
-    getValue() {
+    Box.prototype.getValue = function () {
         return this.value;
-    }
-}
-let box = new Box(42);
+    };
+    return Box;
+}());
+var box = new Box(42);
 console.log(box.getValue()); // Output: 42
