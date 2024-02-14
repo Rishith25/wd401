@@ -5,7 +5,7 @@ function Logger(constructor: Function, target: any) {
 
 @Logger
 class Person {
-  name: "Rishith";
+  name: "Rishith" = "Rishith";
   constructor() {
     console.log("Creating Object");
   }
