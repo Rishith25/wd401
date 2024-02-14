@@ -1,6 +1,6 @@
 // Decorator function to log class instantiation
-function logClass(target: Function) {
-  console.log("Decorating class:", target.name);
+function logClass(constructor: Function) {
+  console.log("Decorating class:", constructor);
 }
 
 // Applying class decorator
