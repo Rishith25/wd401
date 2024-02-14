@@ -12,7 +12,7 @@ class SampleClass {
 }
 
 // Example of a method decorator
-function logMethod(target: any, key: string, descriptor: PropertyDescriptor) {
+function logMethod(target: any, key: string) {
   console.log("Decorating method:", key);
 }
 
