@@ -1,25 +1,15 @@
-// Decorator function to log class instantiation
-function logClass(constructor: Function) {
-  console.log("Decorating class:", constructor);
+function Logger(constructor: Function) {
+  console.log("logging the data");
+  console.log(constructor);
 }
 
-// Applying class decorator
-@logClass
-class SampleClass {
+@Logger
+class Person {
+  name: "Rishith";
   constructor() {
-    console.log("Initializing SampleClass");
+    console.log("Creating Object");
   }
 }
 
-// Decorator function to log method calls
-function logMethod(target: any, key: string, descriptor: PropertyDescriptor) {
-  console.log("Decorating method:", key);
-}
-
-// Applying method decorator
-class AnotherClass {
-  @logMethod
-  someMethod() {
-    console.log("Executing someMethod");
-  }
-}
+const person = new Person();
+console.log(person);
