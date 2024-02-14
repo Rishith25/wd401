@@ -20,7 +20,7 @@ var SampleClass = /** @class */ (function () {
     return SampleClass;
 }());
 // Example of a method decorator
-function logMethod(target, key, descriptor) {
+function logMethod(target, key) {
     console.log("Decorating method:", key);
 }
 // Applying method decorator
