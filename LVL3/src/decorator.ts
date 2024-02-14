@@ -1,4 +1,4 @@
-function Logger(constructor: Function) {
+function Logger(constructor: Function, target: any) {
   console.log("logging the data");
   console.log(constructor);
 }
