@@ -1,4 +1,4 @@
-// Example of a class decorator
+// Decorator function to log class instantiation
 function logClass(target: Function) {
   console.log("Decorating class:", target.name);
 }
@@ -11,8 +11,8 @@ class SampleClass {
   }
 }
 
-// Example of a method decorator
-function logMethod(target: any, key: string) {
+// Decorator function to log method calls
+function logMethod(target: any, key: string, descriptor: PropertyDescriptor) {
   console.log("Decorating method:", key);
 }
 
