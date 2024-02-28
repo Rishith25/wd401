@@ -399,4 +399,6 @@ jobs:
 
 ## Screen Record
 
-[Video](https://www.loom.com/share/584c06b2859843fabff4aff09e3e8a96?sid=c31d8d2d-5d59-4f2a-90c6-04b0982eb076)
+[Video](https://www.loom.com/share/c68bc6d65e9a490fba76bef0e8543f08?sid=743a73e2-e510-497e-8572-9d0cc4dc20a2)
+
+[Continue](https://www.loom.com/share/bff1d48fe7aa4439925ee0e6f2e5dd07?sid=a74e5084-271f-4214-8e06-acb61af06d6f)
