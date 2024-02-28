@@ -396,3 +396,7 @@ jobs:
 - If Github Actions Workflow has no errors:
 
 ![image](https://github.com/Rishith25/gitflow/assets/119791436/7f8507a9-ea03-4144-9f1a-3823fe84f801)
+
+## Screen Record
+
+[Video](https://www.loom.com/share/584c06b2859843fabff4aff09e3e8a96?sid=c31d8d2d-5d59-4f2a-90c6-04b0982eb076)
