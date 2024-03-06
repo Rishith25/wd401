@@ -35,7 +35,7 @@ CMD npm run start
 
 `FROM --platform=$BUILDPLATFORM node:lts-alpine as base`
 
->     This line specifies the base image for the Dockerfile. The --platform=$BUILDPLATFORM flag is used to specify the platform for which the image is being built. In this case, it is set to the value of the BUILDPLATFORM build argument. The node:lts-alpine image is used as the base image for the application.
+> This line specifies the base image for the Dockerfile. The --platform=$BUILDPLATFORM flag is used to specify the platform for which the image is being built. In this case, it is set to the value of the BUILDPLATFORM build argument. The node:lts-alpine image is used as the base image for the application.
 
 `WORKDIR /app`
 
