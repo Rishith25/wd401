@@ -344,4 +344,4 @@ By implementing these security measures, you can fortify your Node.js applicatio
 
 ## Screen Record
 
-[Video](https://www.loom.com/share/f0e92de330244be9b8da5a32216d2c66?sid=8ea36d73-ccc7-4a91-b2e8-2eb4c1525e75)
+[Video](https://drive.google.com/file/d/1P4j3EcP_za-9xGzJXPRiZk0YTLtbeJIU/view?usp=sharing)
