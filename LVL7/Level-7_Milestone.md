@@ -93,7 +93,7 @@ CMD npm run start
 
 ### Following are the environment variables used:
 
-```bash
+```.env
 ####### development #######
 NODE_ENV=development
 DEV_USERNAME=postgres
